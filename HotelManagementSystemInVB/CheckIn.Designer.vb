@@ -33,23 +33,20 @@ Partial Class CheckIn
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.text_id = New System.Windows.Forms.TextBox()
-        Me.label_name = New System.Windows.Forms.Label()
-        Me.label_mobile = New System.Windows.Forms.Label()
-        Me.label_nationality = New System.Windows.Forms.Label()
-        Me.label_gender = New System.Windows.Forms.Label()
-        Me.label_city = New System.Windows.Forms.Label()
-        Me.label_state = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
-        Me.text_total_days = New System.Windows.Forms.TextBox()
-        Me.button_insert = New System.Windows.Forms.Button()
-        Me.button_update = New System.Windows.Forms.Button()
-        Me.button_reset = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.label_r_no = New System.Windows.Forms.Label()
-        Me.text_r_no = New System.Windows.Forms.TextBox()
-        Me.button_check_availability = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label6
@@ -66,7 +63,7 @@ Partial Class CheckIn
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(73, 57)
+        Me.Label1.Location = New System.Drawing.Point(99, 79)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(25, 21)
         Me.Label1.TabIndex = 9
@@ -76,7 +73,7 @@ Partial Class CheckIn
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(47, 106)
+        Me.Label2.Location = New System.Drawing.Point(73, 145)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(51, 21)
         Me.Label2.TabIndex = 10
@@ -86,7 +83,7 @@ Partial Class CheckIn
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(7, 192)
+        Me.Label3.Location = New System.Drawing.Point(33, 296)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(91, 21)
         Me.Label3.TabIndex = 11
@@ -96,7 +93,7 @@ Partial Class CheckIn
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(35, 232)
+        Me.Label4.Location = New System.Drawing.Point(61, 378)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(63, 21)
         Me.Label4.TabIndex = 12
@@ -106,7 +103,7 @@ Partial Class CheckIn
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(39, 149)
+        Me.Label5.Location = New System.Drawing.Point(65, 217)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(59, 21)
         Me.Label5.TabIndex = 13
@@ -116,7 +113,7 @@ Partial Class CheckIn
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(43, 315)
+        Me.Label7.Location = New System.Drawing.Point(477, 145)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(44, 21)
         Me.Label7.TabIndex = 14
@@ -126,7 +123,7 @@ Partial Class CheckIn
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(390, 57)
+        Me.Label8.Location = New System.Drawing.Point(411, 217)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(110, 21)
         Me.Label8.TabIndex = 15
@@ -136,7 +133,7 @@ Partial Class CheckIn
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(378, 136)
+        Me.Label9.Location = New System.Drawing.Point(399, 296)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(122, 21)
         Me.Label9.TabIndex = 16
@@ -146,7 +143,7 @@ Partial Class CheckIn
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(414, 206)
+        Me.Label10.Location = New System.Drawing.Point(435, 378)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(86, 21)
         Me.Label10.TabIndex = 17
@@ -156,78 +153,78 @@ Partial Class CheckIn
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(47, 275)
+        Me.Label11.Location = New System.Drawing.Point(481, 79)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(40, 21)
         Me.Label11.TabIndex = 18
         Me.Label11.Text = "City"
         '
-        'text_id
+        'TextBox1
         '
-        Me.text_id.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text_id.Location = New System.Drawing.Point(132, 54)
-        Me.text_id.Name = "text_id"
-        Me.text_id.Size = New System.Drawing.Size(153, 28)
-        Me.text_id.TabIndex = 19
+        Me.TextBox1.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(157, 79)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(153, 28)
+        Me.TextBox1.TabIndex = 19
         '
-        'label_name
+        'Label12
         '
-        Me.label_name.AutoSize = True
-        Me.label_name.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_name.Location = New System.Drawing.Point(128, 106)
-        Me.label_name.Name = "label_name"
-        Me.label_name.Size = New System.Drawing.Size(0, 21)
-        Me.label_name.TabIndex = 20
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(154, 148)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(0, 21)
+        Me.Label12.TabIndex = 20
         '
-        'label_mobile
+        'Label13
         '
-        Me.label_mobile.AutoSize = True
-        Me.label_mobile.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_mobile.Location = New System.Drawing.Point(128, 149)
-        Me.label_mobile.Name = "label_mobile"
-        Me.label_mobile.Size = New System.Drawing.Size(0, 21)
-        Me.label_mobile.TabIndex = 21
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(154, 220)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(0, 21)
+        Me.Label13.TabIndex = 21
         '
-        'label_nationality
+        'Label14
         '
-        Me.label_nationality.AutoSize = True
-        Me.label_nationality.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_nationality.Location = New System.Drawing.Point(128, 192)
-        Me.label_nationality.Name = "label_nationality"
-        Me.label_nationality.Size = New System.Drawing.Size(0, 21)
-        Me.label_nationality.TabIndex = 22
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(154, 299)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(0, 21)
+        Me.Label14.TabIndex = 22
         '
-        'label_gender
+        'Label15
         '
-        Me.label_gender.AutoSize = True
-        Me.label_gender.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_gender.Location = New System.Drawing.Point(128, 234)
-        Me.label_gender.Name = "label_gender"
-        Me.label_gender.Size = New System.Drawing.Size(0, 21)
-        Me.label_gender.TabIndex = 23
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(154, 380)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(0, 21)
+        Me.Label15.TabIndex = 23
         '
-        'label_city
+        'Label16
         '
-        Me.label_city.AutoSize = True
-        Me.label_city.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_city.Location = New System.Drawing.Point(128, 277)
-        Me.label_city.Name = "label_city"
-        Me.label_city.Size = New System.Drawing.Size(0, 21)
-        Me.label_city.TabIndex = 24
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Location = New System.Drawing.Point(562, 81)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(0, 21)
+        Me.Label16.TabIndex = 24
         '
-        'label_state
+        'Label17
         '
-        Me.label_state.AutoSize = True
-        Me.label_state.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_state.Location = New System.Drawing.Point(128, 318)
-        Me.label_state.Name = "label_state"
-        Me.label_state.Size = New System.Drawing.Size(0, 21)
-        Me.label_state.TabIndex = 25
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(562, 148)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(0, 21)
+        Me.Label17.TabIndex = 25
         '
         'DateTimePicker1
         '
         Me.DateTimePicker1.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Location = New System.Drawing.Point(544, 56)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(565, 216)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(200, 25)
         Me.DateTimePicker1.TabIndex = 26
@@ -235,112 +232,79 @@ Partial Class CheckIn
         'DateTimePicker2
         '
         Me.DateTimePicker2.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker2.Location = New System.Drawing.Point(544, 134)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(565, 294)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(200, 25)
         Me.DateTimePicker2.TabIndex = 27
         '
-        'text_total_days
+        'TextBox2
         '
-        Me.text_total_days.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text_total_days.Location = New System.Drawing.Point(544, 199)
-        Me.text_total_days.Name = "text_total_days"
-        Me.text_total_days.ReadOnly = True
-        Me.text_total_days.Size = New System.Drawing.Size(153, 28)
-        Me.text_total_days.TabIndex = 28
+        Me.TextBox2.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(565, 370)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(153, 28)
+        Me.TextBox2.TabIndex = 28
         '
-        'button_insert
+        'Button1
         '
-        Me.button_insert.Enabled = False
-        Me.button_insert.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button_insert.Location = New System.Drawing.Point(203, 372)
-        Me.button_insert.Name = "button_insert"
-        Me.button_insert.Size = New System.Drawing.Size(112, 31)
-        Me.button_insert.TabIndex = 29
-        Me.button_insert.Text = "Check In"
-        Me.button_insert.UseVisualStyleBackColor = True
+        Me.Button1.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(234, 471)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(76, 31)
+        Me.Button1.TabIndex = 29
+        Me.Button1.Text = "Insert"
+        Me.Button1.UseVisualStyleBackColor = True
         '
-        'button_update
+        'Button2
         '
-        Me.button_update.Enabled = False
-        Me.button_update.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button_update.Location = New System.Drawing.Point(339, 372)
-        Me.button_update.Name = "button_update"
-        Me.button_update.Size = New System.Drawing.Size(112, 31)
-        Me.button_update.TabIndex = 30
-        Me.button_update.Text = "Check Out"
-        Me.button_update.UseVisualStyleBackColor = True
+        Me.Button2.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(375, 471)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(76, 31)
+        Me.Button2.TabIndex = 30
+        Me.Button2.Text = "Update"
+        Me.Button2.UseVisualStyleBackColor = True
         '
-        'button_reset
+        'Button3
         '
-        Me.button_reset.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.button_reset.Location = New System.Drawing.Point(475, 372)
-        Me.button_reset.Name = "button_reset"
-        Me.button_reset.Size = New System.Drawing.Size(112, 31)
-        Me.button_reset.TabIndex = 31
-        Me.button_reset.Text = "Reset"
-        Me.button_reset.UseVisualStyleBackColor = True
+        Me.Button3.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(520, 471)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(76, 31)
+        Me.Button3.TabIndex = 31
+        Me.Button3.Text = "Reset"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'Label18
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Palatino Linotype", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Red
-        Me.Label18.Location = New System.Drawing.Point(415, 98)
+        Me.Label18.Location = New System.Drawing.Point(436, 258)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(347, 16)
         Me.Label18.TabIndex = 32
         Me.Label18.Text = "when customer check out only that time select below check out date "
         '
-        'label_r_no
-        '
-        Me.label_r_no.AutoSize = True
-        Me.label_r_no.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_r_no.Location = New System.Drawing.Point(387, 263)
-        Me.label_r_no.Name = "label_r_no"
-        Me.label_r_no.Size = New System.Drawing.Size(113, 21)
-        Me.label_r_no.TabIndex = 33
-        Me.label_r_no.Text = "Room Number"
-        '
-        'text_r_no
-        '
-        Me.text_r_no.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text_r_no.Location = New System.Drawing.Point(544, 260)
-        Me.text_r_no.Name = "text_r_no"
-        Me.text_r_no.Size = New System.Drawing.Size(153, 28)
-        Me.text_r_no.TabIndex = 34
-        '
-        'button_check_availability
-        '
-        Me.button_check_availability.Location = New System.Drawing.Point(704, 263)
-        Me.button_check_availability.Name = "button_check_availability"
-        Me.button_check_availability.Size = New System.Drawing.Size(58, 23)
-        Me.button_check_availability.TabIndex = 35
-        Me.button_check_availability.Text = "Check"
-        Me.button_check_availability.UseVisualStyleBackColor = True
-        '
         'CheckIn
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(773, 421)
-        Me.Controls.Add(Me.button_check_availability)
-        Me.Controls.Add(Me.text_r_no)
-        Me.Controls.Add(Me.label_r_no)
+        Me.ClientSize = New System.Drawing.Size(812, 543)
         Me.Controls.Add(Me.Label18)
-        Me.Controls.Add(Me.button_reset)
-        Me.Controls.Add(Me.button_update)
-        Me.Controls.Add(Me.button_insert)
-        Me.Controls.Add(Me.text_total_days)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.DateTimePicker2)
         Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.label_state)
-        Me.Controls.Add(Me.label_city)
-        Me.Controls.Add(Me.label_gender)
-        Me.Controls.Add(Me.label_nationality)
-        Me.Controls.Add(Me.label_mobile)
-        Me.Controls.Add(Me.label_name)
-        Me.Controls.Add(Me.text_id)
+        Me.Controls.Add(Me.Label17)
+        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
@@ -369,21 +333,18 @@ Partial Class CheckIn
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents text_id As System.Windows.Forms.TextBox
-    Friend WithEvents label_name As System.Windows.Forms.Label
-    Friend WithEvents label_mobile As System.Windows.Forms.Label
-    Friend WithEvents label_nationality As System.Windows.Forms.Label
-    Friend WithEvents label_gender As System.Windows.Forms.Label
-    Friend WithEvents label_city As System.Windows.Forms.Label
-    Friend WithEvents label_state As System.Windows.Forms.Label
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label14 As System.Windows.Forms.Label
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents Label16 As System.Windows.Forms.Label
+    Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
     Friend WithEvents DateTimePicker2 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents text_total_days As System.Windows.Forms.TextBox
-    Friend WithEvents button_insert As System.Windows.Forms.Button
-    Friend WithEvents button_update As System.Windows.Forms.Button
-    Friend WithEvents button_reset As System.Windows.Forms.Button
+    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Label18 As System.Windows.Forms.Label
-    Friend WithEvents label_r_no As Label
-    Friend WithEvents text_r_no As TextBox
-    Friend WithEvents button_check_availability As Button
 End Class
