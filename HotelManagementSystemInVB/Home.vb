@@ -19,8 +19,4 @@
     Private Sub NewEmployeeToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles NewEmployeeToolStripMenuItem.Click
         Hide()
     End Sub
-
-    Private Sub UpdateRoomAvailabilityToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UpdateRoomAvailabilityToolStripMenuItem.Click
-        UpdateRoomAvailability.Show()
-    End Sub
 End Class

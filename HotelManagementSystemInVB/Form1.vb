@@ -6,7 +6,14 @@
             Home.Show()
             Hide()
         Else
-            MessageBox.Show("login fail")
+            Shownotis()
         End If
     End Sub
+
+    Public Sub Shownotis()
+        MsgBox("Please enter the right user and password", MsgBoxStyle.OkOnly + MsgBoxStyle.Exclamation, "Warning")
+
+    End Sub
+
+
 End Class

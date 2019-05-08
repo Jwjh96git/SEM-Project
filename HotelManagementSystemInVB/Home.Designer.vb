@@ -30,7 +30,6 @@ Partial Class Home
         Me.NewEmployeeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.UpdateRoomAvailabilityToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -38,7 +37,7 @@ Partial Class Home
         'MenuStrip1
         '
         Me.MenuStrip1.Font = New System.Drawing.Font("Palatino Linotype", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewRoomToolStripMenuItem, Me.NewCustToolStripMenuItem, Me.CheckInToolStripMenuItem, Me.CheckOutToolStripMenuItem, Me.UpdateRoomAvailabilityToolStripMenuItem, Me.NewEmployeeToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewRoomToolStripMenuItem, Me.NewCustToolStripMenuItem, Me.CheckInToolStripMenuItem, Me.CheckOutToolStripMenuItem, Me.NewEmployeeToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(847, 29)
@@ -95,12 +94,6 @@ Partial Class Home
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "Hotel Sai"
         '
-        'UpdateRoomAvailabilityToolStripMenuItem
-        '
-        Me.UpdateRoomAvailabilityToolStripMenuItem.Name = "UpdateRoomAvailabilityToolStripMenuItem"
-        Me.UpdateRoomAvailabilityToolStripMenuItem.Size = New System.Drawing.Size(203, 25)
-        Me.UpdateRoomAvailabilityToolStripMenuItem.Text = "Update Room Availability"
-        '
         'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -127,5 +120,4 @@ Partial Class Home
     Friend WithEvents NewEmployeeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents UpdateRoomAvailabilityToolStripMenuItem As ToolStripMenuItem
 End Class

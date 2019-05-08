@@ -2,19 +2,16 @@
 Imports System.Data.SqlClient
 
 Public Class Employee
-    Dim con As New SqlConnection
     Dim da As New SqlDataAdapter
-    Dim com As SqlCommand
+    Dim frm As New HotelManagementSystemInVB.ReusableCode
     Dim ds As New DataSet
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
-        con = New SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\MS\Downloads\SEM project\HotelManagementSystemInVB\HotelManagementSystemInVB\HotelManagementSystemInVB\Database1.mdf;Integrated Security=True")
-        com = New SqlCommand("insert into employee(name,mobile,gender,addr,role,join_date,shift,salary)values('" & TextBox1.Text & "','" & TextBox2.Text & "','" & ComboBox1.Text & "','" & TextBox3.Text & "','" & ComboBox2.Text & "','" & DateTimePicker1.Value.Date & "','" & ComboBox3.Text & "','" & TextBox4.Text & "')", con)
-        con.Open()
-        com.ExecuteNonQuery()
+        frm.OpenCon()
+        frm.InsertSQL("insert into employee(name,mobile,gender,addr,role,join_date,shift,salary)values('" & TextBox1.Text & "','" & TextBox2.Text & "','" & ComboBox1.Text & "','" & TextBox3.Text & "','" & ComboBox2.Text & "','" & DateTimePicker1.Value.Date & "','" & ComboBox3.Text & "','" & TextBox4.Text & "')")
         MsgBox("Record inserted successfully..")
         Hide()
-        con.Close()
+        frm.CloseCon()
     End Sub
 
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click

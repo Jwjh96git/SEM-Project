@@ -139,12 +139,7 @@
     <Compile Include="NewRoom.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateRoomAvailability.Designer.vb">
-      <DependentUpon>UpdateRoomAvailability.vb</DependentUpon>
-    </Compile>
-    <Compile Include="UpdateRoomAvailability.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="ReusableCode.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CheckIn.resx">
@@ -170,9 +165,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewRoom.resx">
       <DependentUpon>NewRoom.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UpdateRoomAvailability.resx">
-      <DependentUpon>UpdateRoomAvailability.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
